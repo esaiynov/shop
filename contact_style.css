@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+body {
+    background: linear-gradient(to right, blue, purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container {
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+
+
+
+}
+
+h1 {
+    background-color: black;
+    color: white;
+}
+
+input,
+.subject_option {
+    margin-top: 30px;
+    height: 30px;
+}
+
+.incon {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.name_input label {
+    margin-right: 70px;
+}
+
+.conpany_input label {
+    margin-right: 45px;
+}
+
+.email_input label {
+    margin-right: 73px;
+}
+
+#submit {
+    background-color: rgb(219, 76, 76);
+    padding: 10px 15px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 20px;
+}
+
+.phone_input label {
+    margin-right: 67px;
+}
+
+.subject_option label {
+    margin-right: 61px;
+}
+
+select {
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.name_input input {
+    width: 150px;
+}
+
+.conpany_input input {
+    width: 300px;
+}
+
+.yes_no {
+    margin-top: 30px;
+}
